@@ -6,10 +6,23 @@ const footer = () => {
     <footer>
       <div className="container">
         <div className="row">
-          <div className="col-md-6"></div>
-          <div className="col-md-6"></div>
+          <h4></h4>
+        </div>
+        <div className="row">
+          <ul>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+      <hr />
       <div className="text-center">
         <p className="copyright">
           &copy; 2023

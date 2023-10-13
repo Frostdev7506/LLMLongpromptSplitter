@@ -2,26 +2,32 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+
   background-color: #333;
   color: #fff;
   padding: 20px;
 }
 
+li {
+  list-style: none;
+  margin: 10px;
+}
 .container {
-  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   min-height: 100%;
 }
 
 .row {
   display: flex;
+  flex-direction: row;
+
   flex-wrap: wrap;
 }
 
-.col-md-6 {
-  flex-basis: 50%;
-  padding: 10px;
+ul {
+  display: flex;
 }
 
 h4 {
@@ -44,8 +50,11 @@ h4 {
   justify-content: space-between;
 }
 
-.list-inline-item {
-  margin-right: 10px;
+hr {
+  width: 100%;
+  margin: 1rem 0.5rem; /* Adjust the margin as needed */
+  border: none; /* Remove the default border */
+  border-top: 1px solid rgb(83, 83, 83); /* Add a top border with your desired color */
 }
 
 a {
