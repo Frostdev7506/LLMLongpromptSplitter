@@ -3,7 +3,7 @@ import "../css/Navbar.css";
 const NavBar = () => {
   return (
     <nav>
-      <div className="logo">Your Logo</div>
+      <div className="logo">LLMLongPromptSplitter</div>
       <ul className="nav-links">
         <li>
           <a href="#">Home</a>
