@@ -1,17 +1,75 @@
 .main-prompt {
   display: flex;
-  background-color: blueviolet;
+  background-color: rgb(235, 232, 239);
   min-height: auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: auto;
   width: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+
+  padding: 20px;
+  transition: all 0.5s ease;
 }
 
 .main-prompt-textarea-label {
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: bolder;
+  transition: all 0.5s ease;
+  text-shadow: 2px 2px 4px #fff;
+}
+
+.llm-type {
+  font-size: large;
+  font-weight: bolder;
+  padding: 2px;
+
+  margin: 2px;
+  transition: all 0.5s ease;
+  text-shadow: 2px 2px 4px #fff;
+}
+.custom-input-label {
+  font-size: large;
+  font-weight: bolder;
+  padding: 2px;
+  margin: 2px;
+  transition: all 0.5s ease;
+  text-shadow: 2px 2px 4px #fff;
+}
+button[type="submit"] {
+  background-color: rgb(105, 5, 147);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  cursor: pointer;
+  border-radius: 2%;
+  transition-duration: 0.4s;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(46, 2, 65);
+}
+
+.main-prompt-textarea {
+  margin-bottom: 4px;
+}
+
+select,
+.custom-input {
+  width: 10rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.custom-input:focus,
+input[type="text"]:focus {
+  border: 1px solid #555;
 }

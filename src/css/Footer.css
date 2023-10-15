@@ -17,21 +17,19 @@ li {
   font-weight: bold;
   font-size: x-large;
 }
+
 .container {
   display: flex;
   position: relative;
   flex-direction: row;
-  top: 20px; /* Fix the typo here */
+  top: 20px;
   justify-content: space-between;
-  min-height: calc(
-    100% - 60px
-  ); /* Adjust this value based on the combined height of your footer and any additional spacing */
+  min-height: calc(100% - 60px);
 }
 
 .row {
   display: flex;
   flex-direction: row;
-
   flex-wrap: wrap;
 }
 
@@ -61,9 +59,9 @@ h4 {
 
 hr {
   width: 100%;
-  margin: 1rem 0.5rem; /* Adjust the margin as needed */
-  border: none; /* Remove the default border */
-  border-top: 1px solid rgb(83, 83, 83); /* Add a top border with your desired color */
+  margin: 1rem 0.5rem;
+  border: none;
+  border-top: 1px solid rgb(83, 83, 83);
 }
 
 a {
@@ -91,16 +89,12 @@ i {
     font-size: x-large;
   }
 
-  .footer-links {
-  }
   .container {
     display: flex;
     position: relative;
     flex-direction: row;
-    top: 20px; /* Fix the typo here */
+    top: 20px;
     justify-content: space-between;
-    min-height: calc(
-      100% - 60px
-    ); /* Adjust this value based on the combined height of your footer and any additional spacing */
+    min-height: calc(100% - 60px);
   }
 }
