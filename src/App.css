@@ -3,3 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+.mainPage {
+  overflow: auto;
+  height: 100%;
+  width: auto;
+  padding-bottom: 9rem;
+}

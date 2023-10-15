@@ -1,0 +1,17 @@
+.main-prompt {
+  display: flex;
+  background-color: blueviolet;
+  min-height: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-prompt-textarea-label {
+  font-size: x-large;
+  font-weight: bolder;
+}

@@ -6,9 +6,9 @@ const footer = () => {
     <footer>
       <div className="container">
         <div className="row">
-          <h4></h4>
+          <h4 className="footer-title">LLMLongPromptSplitter</h4>
         </div>
-        <div className="row">
+        <div className="row footer-links">
           <ul>
             <li>
               <a href="#">About Us</a>
